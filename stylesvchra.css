@@ -5,6 +5,10 @@ body, h1, h2, h3, p, ul {
 }
 h1{
     font-family: Audiowide;
+    padding: 10px;
+}
+span{
+    padding: 10px;
 }
 body {
     font-family: 'Times New Roman', Times, serif;
