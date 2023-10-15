@@ -7,6 +7,10 @@ h1{
 }
 .header-info {
     text-align:right;
+    padding: 10px;
+}
+span{
+    padding: 10px;
 }
 nav {
     background-color: darkred;
