@@ -1,0 +1,86 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: Audiowide;
+}
+.header-info {
+    text-align:right;
+}
+nav {
+    background-color: darkred;
+    color: #fff;
+    padding: 10px 0;
+}
+nav h1 {
+    font-size: 38px;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;}
+main {
+    background-color: #FFFDD0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h2{
+    font-family: Trirong ;
+    font-style: oblique;
+    font-size: xx-large;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+  .login-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+  }
+
+  .login-container h2 {
+    text-align: center;
+  }
+
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .login-container label, .login-container input {
+    margin: 10px 0;
+  }
+
+  .login-container input {
+    padding: 4px;
+    border: 1px solid #ccc;
+  }
+
+  .login-container button {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .login-container button:hover {
+    background: #0056b3;
+  }
